@@ -1,0 +1,134 @@
+/*
+Name: Landa Shereves
+Student ID: 1808195
+Module: CIT2011 - Web Programming
+Assignment: IA1
+Tutor: Sirisha Badhika
+*/
+
+:root {
+    --primary-color: rgb(74, 56, 82);
+    --secondary-color: rgb(181, 146, 194);
+    --background-color: rgb(247, 243, 250);
+    --text-color: rgb(42, 42, 47);
+}
+
+body {
+    background-color: var(--background-color);
+    background-image: url("Assets/Background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: var(--text-color);
+    font-family: Calibri, Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+nav {
+    background-color: var(--primary-color);
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+nav a.active {
+    background-color: var(--secondary-color);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+h1 {
+    color: var(--primary-color);
+    text-align: center;
+    font-size: 32px;
+    background-color: rgba(181, 146, 194, 0.2);
+    padding: 8px 20px;
+    border-radius: 10px;
+}
+
+.professional-photo {
+    float:right;
+    width: 200px;
+    margin: 60px 30px 20px 40px;
+}
+
+h2 {
+    color: var(--primary-color);
+    text-decoration: underline;
+}
+
+a:hover {
+    color: var(--secondary-color);
+}
+
+a[target="_blank"] {
+    font-weight: bold;
+}
+
+img {
+    max-width: 250px;
+    height: auto;
+    border-radius: 10px;
+    border: solid var(--secondary-color);
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.25);
+}
+
+footer {
+    text-align: center;
+    margin-top: 25px;
+    padding: 5px;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 15px;
+}
+
+.highlight {
+    background-color: var(--secondary-color);
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+#student-id {
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    nav a {
+        display: block;
+        margin: 5px;
+    }
+
+    body {
+        padding: 10px;
+    }
+
+    .professional-photo {
+        float: none;
+        display: block;
+        margin: 20px;
+    }
+}
+
+h3 {
+    color: var(--primary-color);
+    margin-bottom: 5px;
+}
+
+ul {
+    line-height: 1.8;
+}
+
+.quote {
+    font-style: italic;
+}
+

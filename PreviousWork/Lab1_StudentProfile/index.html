@@ -1,0 +1,163 @@
+<!--Name: Landa Shereves-->
+<!--ID: 1808195-->
+<!--Module: Web Programming-->
+<!--Assignment: Lab Activity 1 - Personal Portfolio Webpage-->
+<!--Tutor: Ms. Sirisha Badhika-->
+<!--Date: September 30, 2026-->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Student Profile Page</title>
+        <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header id:="home">
+        <h1>University of Technology, Jamaica</h1>
+        <h2>Student Profile Page</h2>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#courses">Courses</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+
+        <div class="profile-info">
+
+            <p><strong>Name: </strong>Landa Z. Shereves</p>
+            <p><strong>Programme: </strong> <span>Computer Networking and Security</span></p>
+            <p><strong>Year of Study: </strong>2</p>
+
+        <h3>Biography</h3>
+        <p>
+            I have a growing interest in cybersecurity, particularly in areas such as auditing, compliance and digital forensics. I enjoy the investigative aspect of cybersecurity and learning how security incidents can be examined and understood. As I continue my studies, I look forward to exploring the different areas of cybersecurity while continuing to build my knowledge and technical skills.
+        </p>
+
+        <img src="profile-photo.jpg" alt="Student profile photo">
+        </div>
+    </section>
+
+    <section id="courses">
+        <h2>My Courses</h2>
+
+        <ul>
+            <li>Computer Security</li>
+            <li>IT Project Management</li>
+            <li>IS Auditing</li>
+            <li>Software Safety and Security</li>
+            <li>Web Programming</li>
+        </ul>
+    </section>
+
+    <section>                           
+        <h2>Weekly Schedule</h2>
+
+        <table>
+            <tr>
+                <th>Course</th>
+                <th>Day</th>
+                <th>Time</th>
+            </tr>
+
+            <tr>
+                <td>Software Safety and Security Lecture</td>
+                <td>Monday</td>
+                <td>5:00 PM - 5:50 PM</td>
+            </tr>
+
+            <tr>
+                <td>IS Auditing Tutorial</td>
+                <td>Tuesday</td>
+                <td>1:00 PM - 2:50 PM</td>
+            </tr>
+
+            <tr>
+                <td>Web Programming Tutorial</td>
+                <td>Friday</td>
+                <td>7:00 PM - 8:50 PM</td>
+            </tr>
+
+            <tr>
+                <td>Computer Security Virtual Lab</td>
+                <td>Saturday</td>
+                <td>11:00 AM - 1:50 PM</td>
+            </tr>
+
+        </table>
+    </section>
+
+    <section id="contact"> 
+        <h2>Contact Me</h2>
+
+        <form>
+            <fieldset>
+                    <legend>Contact Information</legend>
+
+                    <label for="name">Name: </label>
+                    <input type="text" id="name" name="name" required><br/><br/>
+
+                    <label for="email">Email: </label>
+                    <input type="text" id="email" name="email" required><br/><br/>
+
+                    <label for="message">Message: </label>
+                    <textarea id="message" name="message" rows="6" cols="30" placeholder="Type your message" required></textarea><br/><br/>
+
+                    <input type="submit" value="Submit"/>
+            </fieldset>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Landa Z. Shereves. All rights reserved.</p>
+        
+    </footer>    
+
+</body>
+
+</html>
+
+
+<!--
+===========================================================================
+SCIT Web Programming - AI DISCLOSURE BLOCK
+===========================================================================
+File Name:      index.html
+Student Name:   Landa Shereves
+Student ID:     1808195
+Assignment:     Week 1 Lab – Personal Portfolio Webpage
+Date:           30/09/2026
+
+GENERIC AI TOOL UTILISED:
+[X] ChatGPT
+
+SCOPE OF WORK & DEBUGGING LOG:
+
+1. Specific Bug/Error Encountered:
+   An image on my webpage would not display and Developer Tools showed
+   ERR_ACCESS_DENIED.
+
+2. Prompt Sent to AI Tool:
+   How can I fix this error message? The photo is not loading on my webpage. (I attached the image) 
+
+3. Resolution/Fix Applied:
+   AI assistance helped me determine that the image stored in iCloud was
+   causing an access restriction. I saved the image locally on my computer,
+   updated the image path in my HTML, saved the file and refreshed the
+   webpage. The image then displayed correctly.
+
+INTEGRITY VERIFICATION DECLARATION:
+I certify that the webpage and modifications are my own work. AI assistance
+was used for debugging and explanation in accordance with the course
+requirements.
+
+Student Electronic Signature: [Landa Shereves]
+===========================================================================
+-->
